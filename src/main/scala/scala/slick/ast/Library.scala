@@ -64,6 +64,7 @@ object Library {
   val Exists = new SqlFunction("exists")
 
   val Cast = new FunctionSymbol("Cast")
+  val SilentCast = new FunctionSymbol("SilentCast")
   val IfNull = new JdbcFunction("ifnull")
 
   // Values
